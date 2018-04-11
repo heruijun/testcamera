@@ -1,0 +1,4 @@
+#Wed Apr 11 16:02:01 CST 2018
+base.0=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
