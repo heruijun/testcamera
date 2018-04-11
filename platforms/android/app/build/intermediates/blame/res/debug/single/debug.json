@@ -16,6 +16,10 @@
         "source": "/Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
     },
     {
+        "merged": "/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/merged/debug/layout_take_camera.xml.flat",
+        "source": "/Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/res/layout/take_camera.xml"
+    },
+    {
         "merged": "/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
         "source": "/Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
     },

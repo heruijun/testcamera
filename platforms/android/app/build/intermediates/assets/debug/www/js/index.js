@@ -43,7 +43,7 @@ var app = {
 
         function success(result){
             // debugger;
-            alert("Jerry plugin result: " + result);
+            // alert("Jerry plugin result: " + result);
         };
         setTimeout( function(){
             // debugger;

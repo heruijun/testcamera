@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 11 16:02:01 CST 2018
+#Wed Apr 11 17:42:17 CST 2018
 25.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug/www/cordova-js-src/platform.js
 25.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 22.set=ANDROID_RESOURCE
@@ -9,7 +9,7 @@
 14.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug/www/img/logo.png
 14.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 16.set=ASSET
-count=29
+count=30
 6.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug/www/cordova-js-src/android/nativeapiprovider.js
 6.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 26.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex
@@ -45,9 +45,9 @@ count=29
 25.set=ASSET
 17.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 10.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-ldpi-v4/icon.png
-28.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug/www/cordova.js
+28.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/take_camera.xml
 10.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
-28.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
+28.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 14.set=ASSET
 2.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug/www/plugins/com.hrj.childfolioplugin/www/ChildFolioPlugin.js
 2.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
@@ -61,12 +61,15 @@ count=29
 9.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 18.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 11.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/xml/config.xml
+29.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug/www/cordova.js
 11.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
+29.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 24.set=ASSET
 3.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-land-xxhdpi-v4/screen.png
 3.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 13.set=DEX
 23.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex
+29.set=ASSET
 23.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/14
 18.set=ANDROID_RESOURCE
 19.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-xxxhdpi-v4/icon.png
@@ -81,7 +84,7 @@ count=29
 9.set=ASSET
 24.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/assets/debug
 12.set=DEX
-28.set=ASSET
+28.set=ANDROID_RESOURCE
 17.set=ASSET
 13.file=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex
 13.base=/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/transforms/dexMerger/debug/15
