@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:AliyunSVideoLibrary">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/jars/libs/aliyun-vod-croe-android-sdk-1.2.1.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/jars/libs/aliyun-vod-upload-android-sdk-1.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/jars/libs/AliyunVideoSdk-3.5.0-pro-2018.02.09.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/jars/libs/aliyun-vod-auth-android-sdk-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

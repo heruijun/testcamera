@@ -167,6 +167,11 @@ android {
         }
     }
 
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDir "src/main/jniLibs"
+    }
+
     lintOptions {
       abortOnError false;
     }
@@ -260,6 +265,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
+    compile project(":AliyunSVideoLibrary")
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 }
 
 def promptForReleaseKeyPassword() {

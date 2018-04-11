@@ -4,6 +4,23 @@
             "outputFile": "/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "/Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/res/values/values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "104,147,202,258,304,367,432,489",
+                        "endColumns": "42,54,55,45,62,64,56,45",
+                        "endOffsets": "142,197,253,299,362,427,484,530"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "228,271,326,382,428,491,556,613",
+                        "endColumns": "42,54,55,45,62,64,56,45",
+                        "endOffsets": "266,321,377,423,486,551,608,654"
+                    }
+                },
+                {
                     "source": "/Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
