@@ -32,23 +32,16 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+        document.getElementById('picSelect').addEventListener('click', function() {
+           Cordova.exec(success, null, "ChildFolioPlugin", "openCamera", [9]);
+        }, false);
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-
-        function success(result){
-            // debugger;
-            // alert("Jerry plugin result: " + result);
+        function success(r){
+            var div = document.getElementById('picResult');
+            var result = JSON.parse(r);
+            div.innerHTML = result;
         };
-        setTimeout( function(){
-            // debugger;
-            Cordova.exec(success, null, "ChildFolioPlugin", "openCamera", ['拍照']);
-        }, 2000);     }
+    }
 };
 
 app.initialize();

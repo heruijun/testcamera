@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:activity=".activity.TakeCameraActivity">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/aliyun_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/aliyun_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|left"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/aliyun_switch_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/aliyun_complete"
+            android:src="@drawable/switch_light_selector_magic"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/aliyun_complete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_ok" />
+
+        <ImageView
+            android:id="@+id/aliyun_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ico_x_button" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hsview"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="64dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/rl_draft_photos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_photo_bg_circle"
+            android:paddingLeft="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="01"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="02"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="03"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="04"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="05"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="06"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="07"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="08"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/selector_photo_item_circle"
+                    android:gravity="center"
+                    android:text="09"
+                    android:textColor="#9D9D9D"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_img_container"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/aliyun_switch_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/switch_camera_selector_magic" />
+
+            <ImageView
+                android:id="@+id/aliyun_pasterView"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/btn_take_photo" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/aliyun_pasterView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/btn_take_photo"
+        android:visibility="gone" />
+</FrameLayout>

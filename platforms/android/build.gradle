@@ -18,6 +18,30 @@
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
+ext {
+    SUPPORT_VERSION = '25.2.0'
+    RETROFIT_VERSION = '2.1.0'
+    BUTTERKNIFE_VERSION = '8.4.0'
+    INTERCOM_VERSION = '3.0.21'
+    AWS_VERSION = '2.2+'
+
+    SUPPORT = [
+            V7         : "com.android.support:appcompat-v7:${SUPPORT_VERSION}",
+            V4         : "com.android.support:support-v4:${SUPPORT_VERSION}",
+            recycleView: "com.android.support:recyclerview-v7:${SUPPORT_VERSION}",
+            design     : "com.android.support:design:${SUPPORT_VERSION}",
+            cardview   : "com.android.support:cardview-v7:25.1.0",
+            annotations: "com.android.support:support-annotations:${SUPPORT_VERSION}",
+            animated   : "com.android.support:animated-vector-drawable:${SUPPORT_VERSION}",
+            support    : "com.android.support:support-vector-drawable:${SUPPORT_VERSION}"
+    ]
+
+    WIDGET = [
+            fresco         : "com.facebook.fresco:fresco:1.2.0",
+            fresco_okhttp    : "com.facebook.fresco:imagepipeline-okhttp3:0.12.0+"
+    ]
+}
+
 buildscript {
     repositories {
         jcenter()

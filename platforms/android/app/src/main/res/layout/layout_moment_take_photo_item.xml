@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="52dp"
+    android:orientation="vertical">
+
+    <com.hrj.childfolioplugin.view.RoundAngleImageView
+        android:id="@+id/sv_photo"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/selector_photo_item_circle"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|right"
+        android:src="@mipmap/ico_delete_photo" />
+
+</FrameLayout>
