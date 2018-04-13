@@ -20,9 +20,8 @@ var app = {
         document.getElementById('videoSelect').addEventListener('click', function() {
            Cordova.exec(function(r) {
                var div = document.getElementById('videoResult');
-               // var result = JSON.parse(r);
                div.innerHTML = r;
-           }, null, "TakeVideo", "openVideo", ['00']);
+           }, null, "TakeVideo", "openVideo", []);
         }, false);
     }
 };

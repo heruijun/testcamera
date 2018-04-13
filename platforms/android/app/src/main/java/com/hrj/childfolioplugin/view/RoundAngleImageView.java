@@ -50,8 +50,8 @@ public class RoundAngleImageView extends ImageView {
         }
         if (attrs != null) {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RoundAngleImageView);
-            roundWidth = a.getDimensionPixelSize(R.styleable.RoundAngleImageView_roundWidth, roundWidth);
-            roundHeight = a.getDimensionPixelSize(R.styleable.RoundAngleImageView_roundHeight, roundHeight);
+            roundWidth = a.getDimensionPixelSize(R.styleable.RoundAngleImageView_roundRWidth, roundWidth);
+            roundHeight = a.getDimensionPixelSize(R.styleable.RoundAngleImageView_roundRHeight, roundHeight);
         } else {
             float density = context.getResources().getDisplayMetrics().density;
             roundWidth = (int) (roundWidth * density);

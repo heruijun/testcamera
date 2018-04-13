@@ -13,5 +13,9 @@
     <color name="total_duration_title">#6E768B</color>
     <color name="total_duration_value_normal">#6E768B</color>
     <color name="total_duration_value_over">#000021</color>
+    <color name="qupai_black_opacity_70pct">#b3000000</color>
+    <color name="aliyun_record_fill_progress">#EF4B81</color>
+    <color name="aliyun_editor_overlay_line">#D8D8D8</color>
+    <color name="aliyun_qupai_transparent">#00ffffff</color>
 
 </resources>

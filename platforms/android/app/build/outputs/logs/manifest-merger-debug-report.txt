@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
+ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
 MERGED from [:AliyunSVideoLibrary] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/AndroidManifest.xml:2:1-18:12
 MERGED from [com.android.support:design:25.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/bc6ce83e8d5c21a4c660394336a5307b/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/af501588f4dd8ae86c317602612d7b55/AndroidManifest.xml:17:1-27:12
@@ -25,9 +25,9 @@ MERGED from [com.facebook.fresco:drawee:1.2.0] /Users/heruijun/.gradle/caches/tr
 MERGED from [com.facebook.fresco:imagepipeline:1.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.2.0.aar/0235e551a2ee77b2aa9fb5c5789c60f6/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.2.0.aar/f0af01b48c673a6f6b6520c8fd68c5c3/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/fbcore-1.2.0.aar/d357af39174aa7991af064cbe15c38a1/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml
@@ -91,7 +91,7 @@ ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/And
 	android:anyDensity
 		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:18:9-34
 application
-ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:25:5-47:19
+ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:25:5-48:19
 MERGED from [:AliyunSVideoLibrary] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/AndroidManifest.xml:11:5-16:19
 MERGED from [:AliyunSVideoLibrary] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/AndroidManifest.xml:11:5-16:19
 MERGED from [com.android.support:design:25.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/bc6ce83e8d5c21a4c660394336a5307b/AndroidManifest.xml:25:5-20
@@ -162,8 +162,12 @@ activity#com.hrj.childfolioplugin.TakePhotoActivity
 ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:45:9-79
 	android:name
 		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:45:19-76
+activity#com.hrj.childfolioplugin.VideoRecorderActivity
+ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:46:9-83
+	android:name
+		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:46:19-80
 uses-sdk
-ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:48:5-50:41
+ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:49:5-51:41
 MERGED from [:AliyunSVideoLibrary] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/AndroidManifest.xml:7:5-9:41
 MERGED from [:AliyunSVideoLibrary] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:25.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/bc6ce83e8d5c21a4c660394336a5307b/AndroidManifest.xml:21:5-23:62
@@ -209,9 +213,9 @@ MERGED from [com.facebook.fresco:fbcore:1.2.0] /Users/heruijun/.gradle/caches/tr
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.2.0] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/bc6ce83e8d5c21a4c660394336a5307b/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:50:9-38
+		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:51:9-38
 	android:minSdkVersion
-		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:49:9-35
+		ADDED from /Users/heruijun/Desktop/testcamera/platforms/android/app/src/main/AndroidManifest.xml:50:9-35
 activity#com.aliyun.nativecrash.NativeCrashActivity
 ADDED from [:AliyunSVideoLibrary] /Users/heruijun/.gradle/caches/transforms-1/files-1.1/AliyunSdk-RCE.aar/3041d53e82587271ea5d27edb5305143/AndroidManifest.xml:15:9-79
 	android:name

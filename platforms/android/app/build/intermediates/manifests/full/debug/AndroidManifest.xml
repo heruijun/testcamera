@@ -50,6 +50,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.hrj.childfolioplugin.TakePhotoActivity" />
+        <activity android:name="com.hrj.childfolioplugin.VideoRecorderActivity" />
         <activity android:name="com.aliyun.nativecrash.NativeCrashActivity" />
     </application>
 

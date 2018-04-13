@@ -5,51 +5,32 @@
     build-mode="COLD"
     density="400dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1523600756603"
+    timestamp="1523608310612"
     token="7415918734761078820"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="78" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="24" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
-    <artifact
-        location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1523600241726"
+        timestamp="1523605476616"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -57,29 +38,49 @@
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1523600756603"
+        timestamp="1523607191036"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1523608310612"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/heruijun/Desktop/testcamera/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
