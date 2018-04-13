@@ -10,7 +10,7 @@
   "com.hrj.childfolioplugin": {
     "source": {
       "type": "local",
-      "path": "/Users/heruijun/Desktop/testcamera/node_modules/ChildFolioPlugin"
+      "path": "/Users/heruijun/Desktop/testcamera/node_modules/TakeVideo"
     },
     "is_top_level": true,
     "variables": {}

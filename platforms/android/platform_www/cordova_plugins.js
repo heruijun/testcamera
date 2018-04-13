@@ -7,6 +7,14 @@ module.exports = [
     "clobbers": [
       "cordova.plugins.ChildFolioPlugin"
     ]
+  },
+  {
+    "id": "com.hrj.childfolioplugin.TakeVideo",
+    "file": "plugins/com.hrj.childfolioplugin/www/TakeVideo.js",
+    "pluginId": "com.hrj.childfolioplugin",
+    "clobbers": [
+      "cordova.plugins.TakeVideo"
+    ]
   }
 ];
 module.exports.metadata = 

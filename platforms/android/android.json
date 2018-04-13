@@ -15,6 +15,10 @@
             {
               "xml": "<feature name=\"ChildFolioPlugin\"><param name=\"android-package\" value=\"com.hrj.childfolioplugin.ChildFolioPlugin\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"TakeVideo\"><param name=\"android-package\" value=\"com.hrj.childfolioplugin.TakeVideo\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -37,6 +41,14 @@
       "pluginId": "com.hrj.childfolioplugin",
       "clobbers": [
         "cordova.plugins.ChildFolioPlugin"
+      ]
+    },
+    {
+      "id": "com.hrj.childfolioplugin.TakeVideo",
+      "file": "plugins/com.hrj.childfolioplugin/www/TakeVideo.js",
+      "pluginId": "com.hrj.childfolioplugin",
+      "clobbers": [
+        "cordova.plugins.TakeVideo"
       ]
     }
   ],

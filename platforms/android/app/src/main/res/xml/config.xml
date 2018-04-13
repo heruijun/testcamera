@@ -24,4 +24,7 @@
     <feature name="ChildFolioPlugin">
         <param name="android-package" value="com.hrj.childfolioplugin.ChildFolioPlugin" />
     </feature>
+    <feature name="TakeVideo">
+        <param name="android-package" value="com.hrj.childfolioplugin.TakeVideo" />
+    </feature>
 </widget>
